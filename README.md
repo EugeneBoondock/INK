@@ -48,14 +48,17 @@ pip install -r requirements.txt
 To run INK, simply execute the script:
 
 python ink.py
-Copy
-You will see a prompt that says User:. You can type your request for a document in natural language. For example:
+You will see a prompt that says User:. You can type your request for a document in natural language. 
+
+For example:
 
 User: Write me a summary of the book "The Catcher in the Rye"
-Copy
-INK will respond with a generated document in plain text. For example:
+INK will respond with a generated document in plain text. 
+
+For example:
 
 INK: The Catcher in the Rye is a novel by J.D. Salinger, first published in 1951. It follows the story of Holden Caulfield, a 16-year-old boy who has been expelled from his prep school and decides to wander around New York City for three days before going home. Along the way, he encounters various people and situations that reveal his alienation, cynicism, and disillusionment with the world. He also struggles with his own identity, sexuality, and mental health. The novel is widely regarded as a classic of American literature and a defining work of the post-war era. It has been praised for its realistic portrayal of adolescence and its critique of social hypocrisy, but also criticized for its vulgar language and controversial themes.
+
 If you want to save the generated document to a file, you can add write at the beginning of your request and specify the file extension. 
 
 For example:
