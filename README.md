@@ -56,8 +56,9 @@ Copy
 INK will respond with a generated document in plain text. For example:
 
 INK: The Catcher in the Rye is a novel by J.D. Salinger, first published in 1951. It follows the story of Holden Caulfield, a 16-year-old boy who has been expelled from his prep school and decides to wander around New York City for three days before going home. Along the way, he encounters various people and situations that reveal his alienation, cynicism, and disillusionment with the world. He also struggles with his own identity, sexuality, and mental health. The novel is widely regarded as a classic of American literature and a defining work of the post-war era. It has been praised for its realistic portrayal of adolescence and its critique of social hypocrisy, but also criticized for its vulgar language and controversial themes.
-Copy
-If you want to save the generated document to a file, you can add write at the beginning of your request and specify the file extension. For example:
+If you want to save the generated document to a file, you can add write at the beginning of your request and specify the file extension. 
+
+For example:
 
 User: Write me a resume in pdf format
 INK will ask you to enter the filename to save to (without extension) and then create a PDF file with the generated document. For example:
@@ -73,6 +74,7 @@ INK will create a PPTX file with slides that have images related to climate chan
 Enter the filename to save to (without extension): climate_change
 Enter file extension (e.g. .txt, .pdf, .docx, .pptx): .pptx
 INK: climate_change.pptx created successfully!
+
 To exit INK, you can type exit, quit, bye, or goodbye.
 
 **Note**: Ensure that the environment variables are correctly set before running the code.
